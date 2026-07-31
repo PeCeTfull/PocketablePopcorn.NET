@@ -53,3 +53,19 @@ Additional info:
 ### Program licence ###
 
 Copyright (c) by PeCeT_full 2026. Pocketable Popcorn.NET is published under The MIT License. Please refer to the LICENSE.txt file of this repository for more information regarding it.
+
+### Screenshots ###
+
+<img width="640" height="240" alt="Pocketable Popcorn.NET on Windows CE 2.11" src="https://github.com/user-attachments/assets/d46167c7-c7a1-47d3-b4ee-fbde7ddd01dc" />
+
+<img width="640" height="240" alt="The movie details window" src="https://github.com/user-attachments/assets/34ab213f-f823-4a44-b926-1f485ea8eeb7" />
+
+<img width="640" height="480" alt="Pocketable Popcorn.NET on Windows CE .NET 4.1" src="https://github.com/user-attachments/assets/1d2d81bb-524b-4bbd-b2a8-7780153090c8" />
+
+<img width="608" height="420" alt="Pocketable Popcorn.NET on Windows 98" src="https://github.com/user-attachments/assets/65a5cd10-756f-41ed-8008-047de952a9f2" />
+
+<img width="754" height="513" alt="Pocketable Popcorn.NET on Windows 11" src="https://github.com/user-attachments/assets/e19c3e85-e924-47ab-bee6-4fb5ddc62b11" />
+
+### Videos ###
+
+[![Pocketable Popcorn.NET — Demonstration [Channel's 20th Anniversary Special]](https://img.youtube.com/vi/YtooI8R2SSk/0.jpg)](https://www.youtube.com/watch?v=YtooI8R2SSk)
