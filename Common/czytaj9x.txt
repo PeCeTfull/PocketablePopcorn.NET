@@ -1,0 +1,57 @@
+**** Czytaj to - Polski, CE ****
+
+Pocketable Popcorn.NET 1.0
+Autor: PeCeT_full
+Strona WWW: http://www.pecetfull.pl/pl
+Copyright © by PeCeT_full 2026. Program Pocketable Popcorn.NET jest publikowany na zasadach licencji MIT. Wiêcej informacji mo¿na uzyskaæ zapoznaj¹c siê z plikiem Licence.txt do³¹czonym do aplikacji (polskie t³umaczenie licencji MIT: http://web.archive.org/web/20140801205530/http://blaszyk-jarosinski.pl/wp-content/uploads/2008/05/licencja-mit-tlumaczenie.pdf).
+Zainspirowane aplikacj¹ usePopcorn autorstwa Jonasa Schmedtmanna z kursu The Ultimate React Course.
+
+W razie wszelkich problemów czy te¿ w¹tpliwoœci proszê o kontakt.
+
+-------------
+Opis programu
+-------------
+
+Pocketable Popcorn.NET pomaga w porz¹dkowaniu Twoich ulubionych filmów (albo seriali) pozwalaj¹c na ich przegl¹danie i ocenianie. Ocenionymi ju¿ utworami mo¿na zarz¹dzaæ we w³asnej, spersonalizowanej liœcie obejrzanych filmów. Odkrywaj nowe filmy czytaj¹c szczegó³y o nich, takie jak fabu³a, gatunek, re¿yser, aktorzy itp.
+
+Dane o filmach pochodz¹ z serwisu OMDb API.
+
+Program zosta³ napisany w jêzyku C# i korzysta z interfejsu Windows Forms jako interfejsu u¿ytkownika.
+
+Minimalne wymagania sprzêtowe i systemowe: 
+
+* Dla systemu operacyjnego Windows 98 lub nowszego: procesor o mocy 233 MHz lub szybszy; 16 MB dostêpnej pamiêci RAM; 1 MB dostêpnego wolnego miejsca na dysku, w którym znajduje siê program; Microsoft .NET Framework 1.1 installed; aktywne po³¹czenie z Internetem.
+
+* Dla systemu operacyjnego Windows CE 2.0 lub nowszego: procesor o mocy 133 MHz lub szybszy; 8 MB dostêpnej pamiêci RAM; 1 MB dostêpnego wolnego miejsca na dysku, w którym znajduje siê program; Microsoft .NET Compact Framework 1.0 SP3 installed; aktywne po³¹czenie z Internetem.
+
+------------------------------------------------------------
+Przygotowanie do pracy z systemami Windows CE 2.0 i nowszymi
+------------------------------------------------------------
+
+Jeœli Twoja wersja systemu Windows CE to 3.0 b¹dŸ .NET 4.0, to bêdziesz musia³ pobraæ odpowiedni plik CAB ze strony: https://www.hpcfactor.com/scl/1083/Microsoft_Corporation/.net_Compact_Framework/version_1.0_SP3. W przypadku nowszych wersji zalecane jest pobranie instalatora MSI.
+
+Dla starszej wersji konieczne jest u¿ycie nieoficjalnego portu zrobionego przez dstefanova. Nale¿y przejœæ do w³aœciwego ³¹cza i pobraæ stamt¹d paczkê: 
+
+* Microsoft .NET Compact Framework 1.0 SP3 dla Windows CE 2.00/2.01: https://www.hpcfactor.com/scl/1040/dstefanov/Microsoft_.NET_Compact_Framework_1.0_SP3_for_Windows_CE_2.00/2.01
+
+* Microsoft .NET Compact Framework 1.0 SP3 dla Windows CE 2.11: https://www.hpcfactor.com/scl/1041/dstefanov/Microsoft_.NET_Compact_Framework_1.0_SP3_for_Windows_CE_2.11
+
+UWAGA: Aby uruchomiæ program Pocketable Popcorn.NET portem dstefanova, zmieñ rozszerzenie pliku „Pocketable Popcorn.NET.exe” z .exe do .net. Jego ikona zniknie w Eksploratorze plików, ale bez paniki - aplikacja nadal siê bêdzie ni¹ identyfikowaæ podczas dzia³ania.
+
+----------------
+Obs³uga programu
+----------------
+
+Po inicjalizacji zostanie wyœwietlone okno z paskiem wyszukiwania oraz dwoma listami.
+
+Lista po lewej przechowuje wyniki ostatniego wyszukiwania, natomiast ta druga jest wykorzystywana do wyœwietlania filmów obejrzanych przez u¿ytkownika - je¿eli oceni film, jest on traktowany jako obejrzany. Ka¿da zmiana wprowadzona na listê obejrzanych filmów jest zapisywana automatycznie do pliku „WatchedMovies.dat” w katalogu g³ównym programu.
+
+By odczytaæ statystyki o obejrzanych filmach, nale¿y klikn¹æ w przycisk wielokropka, a nastêpnie wybraæ pozycjê „Movies you watched” (filmy, które obejrza³eœ). Ujrzymy okno dialogowe ze szczegó³ami o: 
+
+* liczbie obejrzanych filmów, 
+
+* œredniej ocenie IMDb (0-10), 
+
+* œredniej ocenie u¿ytkownika (0-10), 
+
+* œrednim czasie trwania (w min.).

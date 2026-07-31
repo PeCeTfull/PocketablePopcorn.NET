@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Windows.Forms.Design.CFResXResourceReader, System.CF.Design, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Windows.Forms.Design.CFResXResourceWriter, System.CF.Design, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</resheader>
+	<data name="AboutMessage">
+		<value>Pocketable Popcorn.NET {0}
+{1} &lt;me@pecetfull.pl&gt;
+Licence: MIT
+Website: https://www.pecetfull.pl
+
+Build date: {2}
+
+For more information, please refer to Readme.txt and Licence.txt included with the application.
+
+Inspired by usePopcorn by Jonas Schmedtmann from The Ultimate React Course.</value>
+	</data>
+	<data name="AboutProgram">
+		<value>About Pocketable Popcorn.NET</value>
+	</data>
+	<data name="AppNameWithDownloadingMovieDetailsWindowTitle">
+		<value>Pocketable Popcorn.NET - Downloading movie details...</value>
+	</data>
+	<data name="AppNameWithOneResultWindowTitle">
+		<value>Pocketable Popcorn.NET - 1 result</value>
+	</data>
+	<data name="AppNameWithResultsWindowTitle">
+		<value>Pocketable Popcorn.NET - {0} results</value>
+	</data>
+	<data name="AppNameWithSearchingWindowTitle">
+		<value>Pocketable Popcorn.NET - Searching...</value>
+	</data>
+	<data name="EnterSearchPhraseMessage">
+		<value>Please enter your phrase in the search bar.</value>
+	</data>
+	<data name="Error">
+		<value>Error</value>
+	</data>
+	<data name="ErrorFetchingMovieDetailsMessage">
+		<value>Error fetching movie details. Please check your Internet connection and try again.
+
+Details: {0}</value>
+	</data>
+	<data name="ErrorFetchingMoviesMessage">
+		<value>Error fetching movies. Please check your Internet connection and try again.
+
+Details: {0}</value>
+	</data>
+	<data name="ErrorLoadingUserDataMessage">
+		<value>Error loading user data. The file might be corrupted.
+
+Details: {0}</value>
+	</data>
+	<data name="ErrorSavingUserDataMessage">
+		<value>Error saving user data. Please ensure that the file {0}, if it exists, is not read-only and the program executable is located in a directory with write permissions.
+
+Details: {1}</value>
+	</data>
+	<data name="InvalidApiKeyWillTerminateMessage">
+		<value>You are using a version of Pocketable Popcorn.NET that has an invalid API key for the OMDb API service. Please contact your software provider and ask for a valid build.
+
+The application will terminate now.</value>
+	</data>
+	<data name="MovieDetailsInnerText">
+		<value>{0}
+
+{1} | {2}
+
+{3}
+
+Country: {4}
+
+{5}
+
+Starring: {6}
+
+Written by: {7}
+
+Directed by: {8}
+
+IMDb Rating: {9}</value>
+	</data>
+	<data name="PosterCurrentlyUnavailable">
+		<value>Poster currently unavailable</value>
+	</data>
+	<data name="Question">
+		<value>Question</value>
+	</data>
+	<data name="RateMovieFirstMessage">
+		<value>Please rate the movie between 1 and 10 stars first.</value>
+	</data>
+	<data name="RemoveFromListButton">
+		<value>&amp;Remove from List</value>
+	</data>
+	<data name="RemoveFromWatchedMoviesListQuestion">
+		<value>Are you sure you want to remove the item from the watched movies list?</value>
+	</data>
+	<data name="SearchPhraseTooShortMessage">
+		<value>Your search phrase is too short. Please enter at least 3 characters.</value>
+	</data>
+	<data name="SearchPhraseWithInvalidCharsMessage">
+		<value>Your search phrase contains at least one of the following invalid characters: &amp;, ?, %, ;, \ or /. Please remove them and retry.</value>
+	</data>
+	<data name="Warning">
+		<value>Warning</value>
+	</data>
+	<data name="WatchedMovieStats">
+		<value>Watched movies - Statistics</value>
+	</data>
+	<data name="WatchedMovieStatsMessage">
+		<value>Movies you watched: {0}
+
+Average IMDb rating: {1} (of {2} movies)
+Average user rating: {3} (of {4} movies)
+Average runtime: {5} min (of {6} movies)</value>
+	</data>
+	<data name="WatchedMovieVisibleName">
+		<value>{0} **** IMDb: {1}, You: {2}, {3}</value>
+	</data>
+</root>
