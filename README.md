@@ -40,7 +40,7 @@ To read the watched movie statistics, click on the ellipsis button and then sele
 
 Source OS: Windows 2000 or newer
 
-Target OS: Windows that can handle .NET Framework 1.1 (Windows 98+) or .NET Compact Framework 1.0 SP3 (Windows CE 2.0+)
+Target OS: Windows supporting .NET Framework 1.1 (Windows NT 4.0 SP6a+/Windows 98+) or .NET Compact Framework 1.0 SP3 (Windows CE 2.0+)
 
 IDE: Visual Studio .NET 2003 Enterprise Architect
 
